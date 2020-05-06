@@ -62,3 +62,14 @@ h1 {
   color: #7E459B;
   list-style-type: none;
 }
+
+.bg-grid {
+  background-color: #7E459B;
+  padding: 40px;
+}
+
+.item-grid {
+  color: white;
+  text-align: center;
+}
+
