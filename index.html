@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
-  <title>Document</title>
+  <title>Portfólio da Viviane</title>
 </head>
 
 <body>
@@ -21,13 +21,13 @@
       <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white item-lista" href="#">Habilidades</a>
+            <a class="nav-link text-white item-lista" href="#habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white item-lista" href="#">Sobre</a>
+            <a class="nav-link text-white item-lista" href="#sobre">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white item-lista" href="#">Portifólios</a>
+            <a class="nav-link text-white item-lista" href="#portfolio">Portifólio</a>
           </li>
         </ul>
       </div>
@@ -74,13 +74,13 @@
   </div>
 
 
-  <section>
+  <section id="sobre">
 
     <h1 class="d-flex justify-content-center">Viviane Miranda</h1>
 
     <h3 class='font-italic font-weight-light d-flex justify-content-center'>Programadora front-end</h3>
 
-    <ul class=" d-flex flex-column flex-md-row justify-content-md-around lista-links ">
+    <ul class=" d-flex flex-column text-center flex-md-row justify-content-md-around lista-links ">
       <li class='item-lista'>
 
         <a target='blank' class="icone-links" href="https://github.com/vivihumpheys"> <i class="fab fa-github-alt"></i>
@@ -103,7 +103,7 @@
   </section>
 
 
-  <section class="bg-grid d-flex flex-column  flex-lg-row justify-content-lg-between">
+  <section id="habilidades" class="bg-grid d-flex flex-column  flex-lg-row justify-content-lg-between">
 
     <div class=" habilidades w-100">
       <h5 class="text-white text-center mb-4">Habilidades</h5>
@@ -142,7 +142,7 @@
 
           <div class="col item-grid">
             <i class="fab fa-2x fa-react"></i>
-           <p>React</p> 
+            <p>React</p>
           </div>
         </div>
 
@@ -166,7 +166,7 @@
 
     </div>
 
-    <div class='sobre w-100'>
+    <div  class='sobre w-100'>
 
       <h5 class=" text-white text-center mb-4">Sobre</h5>
       <p class=" text-white">
@@ -181,13 +181,196 @@
       </p>
 
     </div>
-
   </section>
 
+  <div id="portfolio" class="">
+
+    <h4 class="text-center m-3">Portfólio</h4>
+    <section class=" m-3 row">
+      <!-- CARD 1 -->
+      <div class="card container mt-3" style="width: 18rem;">
+        <img src="./assets/MdeMaravilhosas.png" class="card-img-top" alt=" ">
+        <div class="card-body">
+          <h5 class="card-title">M de Maravilhosas</h5>
+          <p class="card-text"> Escolhemos homenagear mulheres inspiradoras. No meu projeto falei de Frida Kahlo,
+            artista
+            e pintora mexicana. Projeto realizado com HTML e CSS.</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        <!-- Button trigger modal -->
+        <div class="m-2 text-center">
+          <button type="button" class="btn botao-1 text-white m-auto" data-toggle="modal" data-target="#modal1">
+            Veja mais
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Sobre o projeto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Esse projeto foi realizado no primeiro módulo do bootcamp de front-end da @reprograma. As alunas criaram
+                uma página com uma breve biografia de uma mulher que as inspira. Utilizamos HTML e CSS para realizar o
+                projeto.
+              </p>
+              <img class="img-modal" src="./assets/m-maravilhosas-frida.gif" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn botao-2 text-white mg-auto" data-dismiss="modal">Voltar</button>
+              <button type="button" class="btn bg-roxo text-white mg-auto">Ver página</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card container mt-3" style="width: 18rem;">
+        <img src="./assets/checklist.png" class="card-img-top" alt=" ">
+        <div class="card-body">
+          <h5 class="card-title">Lista de Tarefas</h5>
+          <p class="card-text"> To-do List, criado com JavaScript, HTML e CSS, com funcionalidade de adicionar,
+            excluir e marcar tarefas realizadas e reorganizá-las com 'drag and drop'.</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn botao-1 text-white m-auto" data-toggle="modal" data-target="#modal2">
+          Veja mais
+        </button>
+      </div>
+
+      <!-- Modal 2 -->
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Sobre o projeto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Essa aplicação foi criada como conclusão do segundo módulo do bootcamp de front-end da @reprograma. As
+                alunas criaram o código em JavaScript para realizar uma lista de tarefas. Também foi utilizado HTML e
+                CSS.
+              </p>
+              <img class="img-modal" src="./assets/projeto 2- checklist.gif" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn botao-2 text-white mg-auto" data-dismiss="modal">Voltar</button>
+              <button type="button" class="btn bg-roxo text-white mg-auto">Ver página</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3  -->
+      <div class="card container mt-3" style="width: 18rem;">
+        <img src="./assets/miranday.png" class="card-img-top" alt=" ">
+        <div class="card-body">
+          <h5 class="card-title">Miranday</h5>
+          <p class="card-text"> Miranday é um projeto pessoal em formato de vídeos na plataforma YouTube. O projeto trás
+            esquetes de humor e observações da autora sobre a vida.</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn botao-1 text-white m-auto" data-toggle="modal" data-target="#modal3">
+          Veja mais
+        </button>
+      </div>
+
+      <!-- Modal 3-->
+      <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Sobre o projeto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Esse projeto foi idealizado em 2018 e foi veiculado inicialmente na plataforma IGTV, do Instagram.
+                Depois foi lançado também como canal de YouTube. Os vídeos trazem esquetes escritas, dirigidas e
+                interpretadas
+                por Viviane Miranda, com temas cotidianos e tons de humor.
+              </p>
+              <img class="img-modal" src="./assets/miranday.gif" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn botao-2 text-white mg-auto" data-dismiss="modal">Voltar</button>
+              <button type="button" class="btn bg-roxo text-white mg-auto">Ver página</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="card container mt-3" style="width: 18rem;">
+        <img src="./assets/biscoito-sorte.png" class="card-img-top" alt=" ">
+        <div class="card-body">
+          <h5 class="card-title">Biscoito da Sorte</h5>
+          <p class="card-text"> Aplicação criada com JavaScript no módulo 2 do bootcamp de front-end da @reprograama.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn botao-1 text-white m-auto" data-toggle="modal" data-target="#modal4">
+          Veja mais
+        </button>
+      </div>
+
+      <!-- Modal 4 -->
+      <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Sobre o projeto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Essa aplicação foi criada como exercício do módulo 2 do curso. Criamos um biscoito da sorte virtual,
+                em que cada clique é oferecida uma frase de sorte ao usuário. Foram utilizados JavaScript, HTML e CSS.
+              </p>
+              <img class="img-modal" src="./assets/biscoito-da-sorte.gif" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn botao-2 text-white mg-auto" data-dismiss="modal">Voltar</button>
+              <button type="button" class="btn bg-roxo text-white mg-auto">Ver página</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  </section>
+  </div>
 
   <script src="./js/jquery-3.4.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
 </body>
+
+<footer class="bg-roxo text-white text-center">
+  <p>
+    Feito com amor pela {reprograma}
+  </p>
+</footer>
 
 </html>

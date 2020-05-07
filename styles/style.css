@@ -1,5 +1,5 @@
 .bg-roxo {
-  background-color: #7E459B;
+  background-color: #DE6449;
 }
 
 a:hover {
@@ -34,14 +34,6 @@ a:hover {
   text-shadow: gray 1px 1px;
 }
 
-.item-lista {
-  color: #7E459B;
-
-}
-
-.item-lista:hover{
-  color: lightgray;
-}
 
 .lista-links {
   padding: 40px;
@@ -64,7 +56,7 @@ h1 {
 }
 
 .bg-grid {
-  background-color: #7E459B;
+  background-color: #DE6449;
   padding: 40px;
 }
 
@@ -73,3 +65,18 @@ h1 {
   text-align: center;
 }
 
+.img-modal {
+  width: 90%;
+}
+
+.botao-1 {
+  background-color:#564154;
+}
+
+.botao-1:hover {
+  opacity: .8;
+}
+
+.botao-2 {
+  background-color: #757083;
+}
