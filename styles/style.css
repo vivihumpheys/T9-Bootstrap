@@ -84,3 +84,11 @@ h1 {
 .footer-reprograma {
   opacity: .6;
 }
+
+.text-white{
+  text-align: justify;
+}
+
+.items-box{
+  padding: 35px;
+}
